@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: rgb(185, 116, 27);
+            padding: 10px;
+            text-align: center;
+            overflow: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto; 
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+      
+        @media only screen and (max-width: 768px) {
+            nav {
+                text-align: center;
+            }
+            nav a {
+                display: block; 
+                margin: 5px auto;
+            }
+            section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mainflow assignment 2</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>About Us</h2>
+    <p>Simple webpage using HTML and CSS.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum bibendum est, a vehicula risus accumsan ac. Donec vitae purus in lacus accumsan tempor.</p>
+</section>
+
+<footer>
+    <p>&copy; All rights reserved.</p>
+</footer>
+
+</body>
+</html>
